@@ -72,3 +72,45 @@ main p {
  color: #1f3a2a;
  margin: 0 0 .3rem 0;
 }
+
+main ul {
+    list-style-type: circle;
+}
+
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+}
+
+main ol {
+    padding: .5rem 3vw;
+    background-color: #8a9c6f;
+}
+
+main dl dt {
+    color: #c75a2b;
+    font-weight: 700;
+}
+
+main dl dd {
+    color: #d9a24b;
+    font-size: .9rem;
+    margin-left: 20px;
+}
+
+main a {
+    color: #5a402B;
+}
+
+footer {
+    background-color: #5a402b;
+    text-align: center;
+    color: #e2cba7;
+    padding: 1rem 0;
+    font-size: .9rem;
+}
+
+footer a {
+    color: #5a402B;
+}
