@@ -24,7 +24,43 @@ header a {
 }
 
 /*Navigation formatting here. */
+@media only screen and (max-width: 800px){
+nav ul {
+    list-style-type: none;
+    padding: 0 2vw;
+    margin: 0;
+}
 
+nav a {
+    display: block;
+    text-decoration: none;
+    color: #e2cba7;
+    font-weight: 700;
+    display: block;
+    padding: .8rem;
+    text-transform: capitalize;
+    text-align: center;
+    border-bottom: solid 1px #5a402b;
+
+}
+
+nav li.active a {
+    background-color: #e2cba7;
+    color: #5a402B;
+}
+
+nav a:hover {
+    color: white;
+}
+
+}
+
+
+
+
+
+/*Large Screen Format */
+@media only screen and (min-width: 801px) {
 nav {
     background-color: #5a402B;
 }
@@ -53,7 +89,7 @@ nav li.active a {
 nav a:hover {
     color: white;
 }
-
+}
 /*Main stuff here . */
 
 main {
