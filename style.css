@@ -5,7 +5,6 @@ font-weight: 300;
 margin: 0;
 }
 
-
 /*Header formatting here. */
 
 header {
@@ -56,9 +55,6 @@ nav a:hover {
 }
 
 }
-
-
-
 
 
 /*Large Screen Format */
@@ -141,6 +137,8 @@ main a {
     color: #5a402B;
 }
 
+/*Footer Formatting here.  */
+
 footer {
     background-color: #5a402b;
     text-align: center;
@@ -154,4 +152,11 @@ footer p {
 
 footer a {
     color: #e2cba7;
+}
+
+/* Page formatting.  */
+
+header, nav, main, footer {
+    max-width: 64rem;
+    margin: 0 auto;
 }
