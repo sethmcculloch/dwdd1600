@@ -1,14 +1,14 @@
 body {
-font-family: 'Oxygen', sans-serif;
-font-size: 16px;
-font-weight: 300;
-margin: 0;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
 }
 
 /*Header formatting here. */
 
 header {
-  /*  background-color: #eaeaea;*/
+    /*  background-color: #eaeaea;*/
     padding: 1rem 2vw;
 }
 
@@ -25,76 +25,77 @@ header a {
 /*Navigation formatting here. */
 
 /*Small Screen Format.*/
-@media only screen and (max-width: 800px){
-nav ul {
-    list-style-type: none;
-    padding: 0 2vw;
-    margin: 0;
-}
+@media only screen and (max-width: 800px) {
+    nav ul {
+        list-style-type: none;
+        padding: 0 2vw;
+        margin: 0;
+    }
 
-nav a {
-    display: block;
-    text-decoration: none;
-    color: #e2cba7;
-    font-weight: 700;
-    display: block;
-    padding: .8rem;
-    text-transform: capitalize;
-    text-align: center;
-    border-bottom: solid 1px #5a402b;
+    nav a {
+        display: block;
+        text-decoration: none;
+        color: #e2cba7;
+        font-weight: 700;
+        display: block;
+        padding: .8rem;
+        text-transform: capitalize;
+        text-align: center;
+        border-bottom: solid 1px #5a402b;
 
-}
+    }
 
-nav li.active a {
-    background-color: #e2cba7;
-    color: #5a402B;
-}
+    nav li.active a {
+        background-color: #e2cba7;
+        color: #5a402B;
+    }
 
-nav a:hover {
-    color: white;
-}
+    nav a:hover {
+        color: white;
+    }
 
 }
 
 
 /*Large Screen Format */
 @media only screen and (min-width: 801px) {
-nav {
-    background-color: #5a402B;
+    nav {
+        background-color: #5a402B;
+    }
+
+    nav ul {
+        list-style-type: none;
+        padding: 0 2vw;
+        margin: 0;
+        display: flex;
+    }
+
+    nav a {
+        font-size: 1.1rem;
+        text-decoration: none;
+        color: #e2cba7;
+        font-weight: 700;
+        display: block;
+        padding: .83rem 2rem;
+    }
+
+    nav li.active a {
+        background-color: #e2cba7;
+        color: #5a402B;
+    }
+
+    nav a:hover {
+        color: white;
+    }
 }
 
-nav ul {
-    list-style-type: none;
-    padding: 0 2vw;
-    margin: 0;
-    display: flex;
-}
-
-nav a {
-    font-size: 1.1rem;
-    text-decoration: none;
-    color: #e2cba7;
-    font-weight: 700;
-    display: block;
-    padding: .83rem 2rem;
-}
-
-nav li.active a {
-    background-color: #e2cba7;
-    color: #5a402B;
-}
-
-nav a:hover {
-    color: white;
-}
-}
 /*Main stuff here . */
 
 main {
     padding: 1rem 2vw;
 }
 
-main h1{
+main h1 {
     color: #1f3a2a;
 }
 
@@ -103,8 +104,8 @@ main h2 {
 }
 
 main p {
- color: #1f3a2a;
- margin: 0 0 .3rem 0;
+    color: #1f3a2a;
+    margin: 0 0 .3rem 0;
 }
 
 main ul {
