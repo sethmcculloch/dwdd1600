@@ -17,9 +17,14 @@ header h1 {
     color: #1F3A2A;
 }
 
-
 header a {
     text-decoration: none;
+}
+
+header img {
+    width: 100%;
+    height: auto;
+    margin: 0; 
 }
 
 /*Navigation formatting here. */
