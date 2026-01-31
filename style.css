@@ -9,7 +9,7 @@ margin: 0;
 /*Header formatting here. */
 
 header {
-    background-color: #eaeaea;
+  /*  background-color: #eaeaea;*/
     padding: 1rem 2vw;
 }
 
