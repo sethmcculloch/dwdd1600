@@ -1,0 +1,71 @@
+body {
+font-family: 'Oxygen', sans-serif;
+font-size: 16px;
+font-weight: 300;
+margin: 0;
+}
+
+
+/*Header formatting here. */
+
+header {
+    background-color: #eaeaea;
+    padding: 1rem 2vw;
+}
+
+header h1 {
+    margin: 0;
+    color: #1F3A2A;
+    text-decoration: none;
+}
+
+
+/*Navigation formatting here. */
+
+nav {
+    background-color: #5a402B;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0 2vw;
+    margin: 0;
+    display: flex;
+}
+
+nav a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #e2cba7;
+    font-weight: 700;
+    display: block;
+    padding: .83rem 2rem;
+}
+
+nav li.active a {
+    background-color: #e2cba7;
+    color: #5a402B;
+}
+
+nav a:hover {
+    color: white;
+}
+
+/*Main stuff here . */
+
+main {
+    padding: 1rem 2vw;
+}
+
+main h1{
+    color: #1f3a2a;
+}
+
+main h2 {
+    color: #c75a2b;
+}
+
+main p {
+ color: #1f3a2a;
+ margin: 0 0 .3rem 0;
+}
