@@ -24,6 +24,8 @@ header a {
 }
 
 /*Navigation formatting here. */
+
+/*Small Screen Format.*/
 @media only screen and (max-width: 800px){
 nav ul {
     list-style-type: none;
