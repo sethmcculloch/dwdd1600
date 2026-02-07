@@ -198,6 +198,7 @@ figure.bio img {
 figure.bio figcaption {
     text-align: center;
     font-size: .75rem;
+    float: right;
 }
 
 /*Footer Formatting here.  */
