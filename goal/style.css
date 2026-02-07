@@ -1,0 +1,182 @@
+body {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+}
+
+/*Header formatting here. */
+
+header {
+    /*  background-color: #eaeaea;*/
+    padding: 1rem 2vw;
+}
+
+header h1 {
+    margin: 0;
+    color: #1F3A2A;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header img {
+    width: 100%;
+    height: auto;
+    margin: 0; 
+}
+
+/*Navigation formatting here. */
+
+/*Small Screen Format.*/
+@media only screen and (max-width: 800px) {
+    nav ul {
+        list-style-type: none;
+        padding: 0 2vw;
+        margin: 0;
+    }
+
+    nav a {
+        display: block;
+        text-decoration: none;
+        color: #e2cba7;
+        font-weight: 700;
+        display: block;
+        padding: .8rem;
+        text-transform: capitalize;
+        text-align: center;
+        border-bottom: solid 1px #5a402b;
+
+    }
+
+    nav li.active a {
+        background-color: #e2cba7;
+        color: #5a402B;
+    }
+
+    nav a:hover {
+        color:#e2cba7;
+        background-color: #5a402B;
+    }
+
+}
+
+
+/*Large Screen Format */
+@media only screen and (min-width: 801px) {
+    nav {
+        background-color: #5a402B;
+    }
+
+    nav ul {
+        list-style-type: none;
+        padding: 0 2vw;
+        margin: 0;
+        display: flex;
+    }
+
+    nav a {
+        font-size: 1.1rem;
+        text-decoration: none;
+        color: #e2cba7;
+        font-weight: 700;
+        display: block;
+        padding: .83rem 2rem;
+    }
+
+    nav li.active a {
+        background-color: #e2cba7;
+        color: #5a402B;
+    }
+
+    nav a:hover {
+        color: white;
+    }
+}
+
+/*Main stuff here . */
+
+main {
+    padding: 1rem 2vw;
+}
+
+main h1 {
+    color: #1f3a2a;
+}
+
+main h2 {
+    color: #c75a2b;
+}
+
+main p {
+    color: #1f3a2a;
+    margin: 0 0 .3rem 0;
+}
+
+main ul {
+    list-style-type: circle;
+}
+
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+}
+
+main ol {
+    padding: .5rem 3vw;
+    background-color: #8a9c6f;
+}
+
+main dl dt {
+    color: #c75a2b;
+    font-weight: 700;
+}
+
+main dl dd {
+    color: #d9a24b;
+    font-size: .9rem;
+    margin-left: 20px;
+}
+
+main a {
+    color: #5a402B;
+}
+
+/*Image Formatting here.  */
+
+.home {
+    width: 100%;
+    margin: 0;
+}
+
+.home img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+/*Footer Formatting here.  */
+
+footer {
+    background-color: #5a402b;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer p {
+    color: #e2cba7;
+    font-size: 1rem;
+}
+
+footer a {
+    color: #e2cba7;
+}
+
+/* Page formatting.  */
+
+header, nav, main, footer {
+    max-width: 64rem;
+    margin: 0 auto;
+}
