@@ -24,7 +24,7 @@ header a {
 header img {
     width: 100%;
     height: auto;
-    margin: 0; 
+    margin: 0;
 }
 
 /*Navigation formatting here. */
@@ -56,7 +56,7 @@ header img {
     }
 
     nav a:hover {
-        color:#e2cba7;
+        color: #e2cba7;
         background-color: #5a402B;
     }
 
@@ -185,17 +185,17 @@ table.main tr:hover {
 }
 
 figure.bio {
-  width: 30%;
-  margin: 0 0 0 2%;
-  float: right;
+    width: 30%;
+    margin: 0 0 0 2%;
+    float: right;
 }
 
-figure.bio {
+figure.bio img {
     width: 100%;
     height: auto;
 }
 
-figure.bio figcaption{
+figure.bio figcaption {
     text-align: center;
     font-size: .75rem;
 }
@@ -219,7 +219,10 @@ footer a {
 
 /* Page formatting.  */
 
-header, nav, main, footer {
+header,
+nav,
+main,
+footer {
     max-width: 64rem;
     margin: 0 auto;
 }
