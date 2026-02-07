@@ -171,7 +171,7 @@ table.main tr:nth-child(odd) {
 }
 
 table.main tr:hover {
-    backgroun-color: hsl(18, 64, 47, 0.2);
+    background-color: hsl(18, 64, 47, 0.2);
 }
 
 
