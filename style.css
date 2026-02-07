@@ -178,11 +178,6 @@ table.main tr:hover {
 
 /*Image Formatting here.  */
 
-.home {
-    width: 100%;
-    margin: 0;
-}
-
 .home img {
     width: 100%;
     height: auto;
