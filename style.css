@@ -195,6 +195,11 @@ figure.bio {
   float: right;
 }
 
+figure.bio {
+    width: 100%;
+    height: auto;
+}
+
 figure.bio figcaption{
     text-align: center;
     font-size: .75rem;
