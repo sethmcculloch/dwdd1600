@@ -175,6 +175,7 @@ table.main tr:hover {
 }
 
 
+
 /*Image Formatting here.  */
 
 .home {
@@ -186,6 +187,17 @@ table.main tr:hover {
     width: 100%;
     height: auto;
     margin: 0;
+}
+
+figure.bio {
+  width: 30%;
+  margin: 0 0 0 2%;
+  float: right;
+}
+
+figure.bio figcaption{
+    text-align: center;
+    font-size: .75rem;
 }
 
 /*Footer Formatting here.  */
