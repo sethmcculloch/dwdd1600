@@ -109,6 +109,10 @@ main h2 {
     color: #c75a2b;
 }
 
+main h3 {
+    color: #5a402b;
+}
+
 main p {
     color: #1f3a2a;
     margin: 0 0 .3rem 0;
@@ -143,6 +147,33 @@ main dl dd {
 main a {
     color: #5a402B;
 }
+
+
+table.main {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table.main th {
+    background-color: #5a402b;
+    color: #e2cba7;
+    padding: .4rem 2vw;
+    text-align: left;
+}
+
+table.main td {
+    color: #1f3a2a;
+    padding: .4rem 2vw;
+}
+
+table.main tr:nth-child(odd) {
+    background-color: #8a9c6f;
+}
+
+table.main tr:hover {
+    backgroun-color: hsl(18, 64, 47, 0.2);
+}
+
 
 /*Image Formatting here.  */
 
