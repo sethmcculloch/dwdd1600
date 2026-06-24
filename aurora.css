@@ -50,13 +50,14 @@ header img {
     }
 
     nav li.active a {
-        background-color: #F2BFBB;
-        color:  #6E6A72;
+        background-color: #BF5E49;
+    
+        color:  #F2BFBB;
     }
 
     nav a:hover {
-        color: #F2DCDC;
-        background-color: #BF5E49;
+        color: #BF5E49;
+        background-color: #F2BFBB;
     }
 
 }
