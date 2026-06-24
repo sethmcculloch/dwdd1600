@@ -151,6 +151,7 @@ header img {
 
     }
 
+
     /*  Image formatting  */
 
     
@@ -158,4 +159,28 @@ header img {
     width: 100%;
     height: auto;
     margin: 0;
+}
+
+.site-logo {
+  width: 80px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.branding-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.site-title {
+  margin: 0;
+  font-size: 1.6rem;
+  color: var(--bg);
+}
+
+.site-slogan {
+  margin: 0;
+  color: var(--surface);
+  font-size: 0.95rem;
 }
