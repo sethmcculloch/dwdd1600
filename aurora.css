@@ -150,3 +150,12 @@ header img {
         display: block;
 
     }
+
+    /*  Image formatting  */
+
+    
+.home img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
