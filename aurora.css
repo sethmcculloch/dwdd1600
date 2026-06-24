@@ -144,3 +144,8 @@ header img {
     #year {
         color: #F2BFBB;
     }
+
+    ul.home {
+        display: block;
+
+    }
