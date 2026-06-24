@@ -1,6 +1,7 @@
     body { 
         font-family: Arial, sans-serif; 
         margin: 0; 
+        background-color: #F2DCDC;
     }
 
 
@@ -14,7 +15,7 @@ header {
 
 header h1 {
     margin: 0;
-    color: #F4C98A;
+    color: #BF5E49;
 }
 
 header a {
@@ -38,7 +39,7 @@ header img {
     nav a {
         display: block;
         text-decoration: none;
-        color: #F4C98A;
+        color: #F2BFBB;
         font-weight: 700;
         display: block;
         padding: .8rem;
@@ -49,13 +50,13 @@ header img {
     }
 
     nav li.active a {
-        background-color: #F4C98A;
+        background-color: #F2BFBB;
         color:  #6E6A72;
     }
 
     nav a:hover {
-        color: #F4C98A;
-        background-color: #6E6A72;
+        color: #F2DCDC;
+        background-color: #BF5E49;
     }
 
 }
@@ -64,7 +65,7 @@ header img {
 /*Large Screen Format */
 @media only screen and (min-width: 801px) {
     nav {
-        background-color: #6E6A72;
+        background-color: #BF5E49;
     }
 
     nav ul {
@@ -77,15 +78,15 @@ header img {
     nav a {
         font-size: 1.1rem;
         text-decoration: none;
-        color: #F4C98A;
+        color: #F2BFBB;
         font-weight: 700;
         display: block;
         padding: .83rem 2rem;
     }
 
     nav li.active a {
-        background-color: #F4C98A;
-        color: #6E6A72;
+        background-color: #D98977;
+        color: #F2DCDC;
     }
 
     nav a:hover {
@@ -123,16 +124,16 @@ header img {
     }
 
     h1, h2 { 
-        color: #F4C98A; 
+        color: #BF5E49; 
     }
 
     footer { 
         text-align: center; 
         padding: 20px; 
         font-size: 0.9em; 
-        color: #F4C98A;
-        background-color: #6E6A72; 
-        border-top: 1px solid #333; 
+        color: #F2DCDC;
+        background-color: #F2BFBB; 
+        border-top: 1px solid #BF5E49; 
         margin-top: 40px; 
     }
 
@@ -141,5 +142,5 @@ header img {
     }
 
     #year {
-        color: #F4C98A;
+        color: #F2BFBB;
     }
