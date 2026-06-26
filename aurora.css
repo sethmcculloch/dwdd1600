@@ -184,9 +184,14 @@ header img {
         color: #F2BFBB;
     }
 
+    
+    ul.home {
+        text-decoration: none;
+    }
     ul.home li{
         display: block;
         text-decoration: none;
+        text-align: center;
     }
 
 
