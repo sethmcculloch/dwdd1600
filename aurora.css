@@ -8,6 +8,12 @@
         color:  #BF5E49;
     }
 
+    p.home, p.home2 {
+        font-size: larger;
+        color: #BF5E49;
+        text-align: center;
+    }
+
 
 /*Header formatting here. */
 /*
