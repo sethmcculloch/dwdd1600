@@ -46,18 +46,18 @@ header img {
             display: flex;
             align-items: center; 
             color: #BF5E49;
-            gap: 12px; /* Space between logo and text */
+            gap: 40px; /* Space between logo and text */
         }
 
         /* 3. Style the logo image */
-        .logo {
+        .site_fix {
             height: 40px; /* Adjust height to match your logo asset */
             width: auto;  /* Keeps image proportions correct */
             object-fit: contain;
         }
 
         /* 4. Style the website name text */
-        .brand-name {
+        .site_futuretext {
             font-size: 24px;
             font-weight: bold;
             color: #BF5E49;
