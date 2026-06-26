@@ -4,6 +4,9 @@
         background-color: #F2DCDC;
     }
 
+    body a {
+        color:  #BF5E49;
+    }
 
 
 /*Header formatting here. */
@@ -170,7 +173,7 @@ header img {
         text-align: center; 
         padding: 20px; 
         font-size: 0.9em; 
-        color: #F2DCDC;
+        color:  #BF5E49;
         background-color: #F2BFBB; 
         border-top: 1px solid #BF5E49; 
         margin-top: 40px; 
@@ -207,6 +210,7 @@ header img {
 figcaption {
     font-size: 10px;
     color: #BF5E49;
+    text-align: right;
 }
 /*
 .site-logo {
