@@ -243,16 +243,7 @@ header img {
 /*  Image formatting  */
 
     
-figure.home img {
-    width: 100%;
-    height: auto;
-    margin: 0;
-}
 
-figure.home figcaption {
-    font-size: 10px;
-    color: #BF5E49;
-}
 
 figure {
   float: right;
@@ -278,4 +269,13 @@ figure figcaption {
   border-bottom-right-radius: 10px;
 }
 
+figure.home img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
 
+figure.home figcaption {
+    font-size: 10px;
+    color: #BF5E49;
+}
