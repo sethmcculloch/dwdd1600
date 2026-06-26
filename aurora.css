@@ -269,6 +269,14 @@ figure.regular figcaption {
   border-bottom-right-radius: 10px;
 }
 
+figure.home {
+  width: 100%;
+  margin: 0 0 1rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--surface);
+}
+
 figure.home img {
     width: 100%;
     height: auto;
