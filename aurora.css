@@ -26,6 +26,44 @@ header img {
     margin: 0;
 }
 
+
+/* New Header Stuff */
+      /* 1. Remove default spaces around the page */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* 2. Position the header container in the top-left */
+        .site-logo {
+            position: absolute;
+            top: 0;
+            left: 0;
+            padding: 15px; /* Creates spacing from the very edge of the browser */
+            
+            /* Align logo and text horizontally */
+            display: flex;
+            align-items: center; 
+            color: #BF5E49;
+            gap: 12px; /* Space between logo and text */
+        }
+
+        /* 3. Style the logo image */
+        .logo {
+            height: 40px; /* Adjust height to match your logo asset */
+            width: auto;  /* Keeps image proportions correct */
+            object-fit: contain;
+        }
+
+        /* 4. Style the website name text */
+        .brand-name {
+            font-size: 24px;
+            font-weight: bold;
+            color: #BF5E49;
+            margin: 0; /* Prevents text shifts caused by default margins */
+        }
+
 /*Navigation formatting here. */
 
 /*Small Screen Format.*/
