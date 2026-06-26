@@ -203,6 +203,11 @@ header img {
     height: auto;
     margin: 0;
 }
+
+figcaption {
+    font-size: 10px;
+    color: #BF5E49;
+}
 /*
 .site-logo {
   width: 80px;
