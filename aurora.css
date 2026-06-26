@@ -232,9 +232,10 @@ header img {
         text-decoration: none;
     }
     ul.home li{
-        display: block;
-        text-decoration: none;
-        text-align: center;
+        list-style-type: none;
+        padding: 0 2vw;
+        margin: 0;
+        display: flex;
     }
 
 
