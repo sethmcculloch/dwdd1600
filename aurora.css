@@ -243,13 +243,13 @@ header img {
 /*  Image formatting  */
 
     
-.home figure img {
+figure.home img {
     width: 100%;
     height: auto;
     margin: 0;
 }
 
-.home figure figcaption {
+figure.home figcaption {
     font-size: 10px;
     color: #BF5E49;
 }
